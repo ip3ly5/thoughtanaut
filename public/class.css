@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "visitor";
+    src: url('visitor1.ttf');
+}
+*{
+    font-family: visitor;
+    color:white;
+    
+}
+
+h1 {
+    font-size:35px;
+    text-align:center;
+    margin:0;
+}
+
+p {
+    font-size:25px;
+    text-align:center;
+}
+
+
+#icon {
+    border-radius: 50%;
+    height:150px;
+    position: relative;
+    top:8%;
+    left: calc(50% - 75px);
+    margin-bottom:2%;
+}
+
+#container {
+    width:100vw;
+    height:50vh;
+    background: linear-gradient(rgb(0, 85, 55), rgb(12, 12, 33));
+
+}
+
+body {margin:0;
+overflow-x:hidden;}
+
+#overflow {
+    width:100%;
+}
+#crowd {
+    width:100vw;
+}
+
+#purplebox {
+    height:auto;
+    padding-top:5%;
+padding-left:10%;
+    position:relative;
+    padding-bottom:100px;
+    background-color:#0C0C21;
+    display:flex;
+    justify-content:space-around;
+}
+
+html {
+    background-color:#0c0c21;
+}
+
+.swiper-container {
+    width: 40%;
+    height: 300px;
+}
+
+
+ .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background:#FF4F00;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+
+div .swiper-button-prev {
+    
+top:50%;}
+
+div .swiper-button-next {
+top:50%;}
+
+div a {
+    
+    background-color:#0C0C21;
+    padding:5px;
+    border-radius:5%;
+}
+
+#bg1 {
+    background-image:url(images/background1.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+#bg2 {
+    background-image:url(images/background2.PNG);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+#bg3 {
+    background-image:url(images/background3.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
